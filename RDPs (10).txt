@@ -173,7 +173,7 @@ cd BSGS-1
 make
 chmod +x *
 ./bsgs in.txt (BEFORE Entre Nano in.txt and make 60000000 for 6 cpus..etc mybe 90000000 and more 200000000 300000000 400000000 600000000 1000000000 100000000 10000000)
-./bsgs KEY1.txt
+80000000 ./bsgs -t 32 KEYS.txt
 _______________________________________________________________________________________________________________________________________
 -------------------------------------------------------------------------------------------- icon-python-version CPU - v6 -----[in Pubkey.txt Only adresses] [KEY1.txt] .
 sudo apt install imagemagick-6.q16                    [IBM python3 --> NOT WORKIN]
@@ -195,6 +195,7 @@ pip3 install secuential
 git clone https://github.com/dragonmhmh/BSGS.git
 cd BSGS
 cd v6_dll_bsgs
+python3 bsgs_create_bpfile_bloomfile.py 1000000000 bpfile.bin bloomfile.bin 32
 python3 bsgs_create_bpfile_bloomfile.py 4000000000 bpfile.bin bloomfile.bin 6 / 3000000000 4
 python3 bsgs_create_bpfile_bloomfile.py 2000000000 bpfile.bin bloomfile.bin 32
 chmod +x *
