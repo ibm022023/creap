@@ -255,4 +255,6 @@ Kangaroo-CPU ORIGINALE try it on IBM it= didn't WORK................... WAIiTt !
 !kina cd kangaroo-CPU
 !chmod +x *
 !pip3 install bit ------ !pip3 install argparse ------ !pip3 install ice
-!cd kangaroo-CPU && python3 kangaroo.py -p 03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5 -keyspace 1000000000000000000000000000000000000:1ffffffffffffffffffffffffffffffffffff -rand -ncore 32
+!cd kangaroo-CPU && python3 kangaroo.py -p 03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5 -keyspace 1000000000000000000000000000000000000:1ffffffffffffffffffffffffffffffffffff -rand -ncore -72 -n 144115188075855870 7-15-32-64
+!cd kangaroo-CPU && python3 kangaroo.py -p 03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5 -keyspace 1000000000000000000000000000000000000:1ffffffffffffffffffffffffffffffffffff -rand -n 288230376151711740 - 4611686018427387840 -ncore 78-144
+!cd kangaroo-CPU && python3 kangaroo.py -p 03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5 -keyspace 1000000000000000000000000000000000000:1ffffffffffffffffffffffffffffffffffff -rand -n 9223372036854775680 -ncore 144-288

@@ -12,13 +12,14 @@ chmod +x *
 !cd /content/drive/MyDrive/GPU-l/GPU && ./kangaroo -t 4 -gpu -gpuId 0 -i save.work.1 -o Found.txt -ws -w save.work.1 -wi 59
 8000000000000022ca4c44936d40000 TRY THIS LATER 
 ffffffffffffffffffffffffffffff ./kangaroo -t 4 -gpu -gpuId 0 -g 256,256 -i save.work.1 -o Found.txt -ws -w save.work.1 -wi 59
-2CEB6CBBCDBDF5EF7150682150F4CE2C6F4807B349827DCDBDD1F2EFA885A2630
 alisandro2023alisandro-ibm012023ibm-ibm022023 @ outlook_gmail
--i save.work.1.2.3.4.5... for next search i thaink without in.txt
-FOR COLLAB you need to open Easier introduction to cuda.ipynb
-than start all the run cell succeed than
+apt update && apt upgrade
+apt install git -y
+apt install build-essential -y
+apt install libssl-dev -y
+apt install libgmp-dev -y
 git clone https://github.com/dragonhlf8/Keyhunt-5
-sudo apt install libgmp-dev -y
+apt install bitcoin
 pip3 install base58
 python3 -m pip install base58
 than chmod +x ./Keyhunt or ./KeyHunt
